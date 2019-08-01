@@ -35,7 +35,7 @@ public class DependsOMethod_Ex {
 	public void g() 
 	{System.out.println("g");}
 	
-	@Test(dependsOnMethods= "i")
-	public void j() 
+	@Test(dependsOnMethods= "b")   //i
+  	public void j() 
 	{System.out.println("j");}
 }
